@@ -32,7 +32,7 @@ library SafeMath {
 }
 
 /// @title Kakushin Solidity Token
-/// @author RPlanX
+/// @author PriusLabs
 contract KakushinToken {
    
    using SafeMath for uint256 ;
@@ -44,19 +44,19 @@ contract KakushinToken {
    
     uint256 public totalSupply = 2400000000;
     
-    address public constant companyWallet = 0x2b361814d1A0B702a319b6d7e6189FcfFfD0B92A ;
+    address public constant companyWallet = 0xd9240Ac690F7764fC53e151863b5f79105c50E3d ;
     
-    address public constant founder1Wallet = 0x61256E309577b43e8b2e9EC9c5E081c899D392ff ;    
+    address public constant founder1Wallet = 0xcE13BC6f7168B309584b70Ae996ec6168c296427 ;    
     
-    address public constant founder2Wallet = 0x13f0017a23352242770695E94C431ABBB6065e64 ;    
+    address public constant founder2Wallet = 0xa520044662761ad83b8cfA8Cd63c156F64104B9E ;    
     
-    address public constant founder3Wallet = 0x87c11E9f8842D1e3Fc82e519F26C52318369E6FA ;    
+    address public constant founder3Wallet = 0xF9e2d35b4C23446929330EA327895D754E17784D ;    
     
-    address public constant founder4Wallet = 0x9407796f332C1000C5562562f45fC3B1E827f1f8 ;   
+    address public constant founder4Wallet = 0xcc3870Ec7Cc86Cd3f267f17c5d78467d49B9FA2b ;   
     
-    address public constant owner1 = 0x335753eFd71EDF6fb463676e82491204C2ac3eA0;
+    address public constant owner1 = 0x9c27c3465a7dE3E653417234A60a51C51C9E978e;
 	
-	address public constant owner2 = 0x00134a4E62462498da02609065A9f7D251646FcA;   //Address of Admin Wallet---- //
+	address public constant owner2 = 0x36F7f9cD70b52f4b2b8Ca861fAa4A44D8C1E4Be3;   //Address of Admin Wallet---- //
     
     uint startDate;
     
@@ -163,5 +163,3 @@ contract KakushinToken {
   
     
 }
-
-
